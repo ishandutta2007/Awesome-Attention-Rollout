@@ -13,7 +13,11 @@ The technical framework governing token interpretability has transitioned from f
 
 
 ```mermaid
-[Layer-by-Layer Probing (2017-2019)] ───> [Attention Rollout (Abnar, 2020)] ───> [Attention Flow (Max-Flow Math)] ───> [SAE Dictionary Audits (Modern Era)](Fragmented, Deep-Layer Blind Spots)        (Linear Matrix Product Assumptions)           (Capacitated Graph Routing Rules)          (Monosemantic Concept Tracking)
+flowchart LR
+    A["Layer-by-Layer Probing (2017–2019)<br/>(Fragmented Layer-Wise Analysis)"]
+    --> B["Attention Rollout (Abnar & Zuidema, 2020)<br/>(Linear Attention Matrix Composition)"]
+    --> C["Attention Flow (Max-Flow-Based)<br/>(Graph-Based Information Routing)"]
+    --> D["SAE Dictionary Audits (Modern Era)<br/>(Monosemantic Feature Tracking)"]
 ```
 
 *   **The Isolated Layer-by-Layer Probing Era (~2017–2019)**
@@ -58,7 +62,15 @@ Attention Rollout and its direct mathematical extensions are categorized based o
 To map out cross-token tracking records securely at runtime, the visualization framework hooks straight into the transformer's layer-normalization boundaries.
 
 ```mermaid
-Recursive Attention Matrix Chain Loop[Layer 1 Matrix: A₁ + I] ───> [Multiply Block Elements] ───> [Compute Normalized Matrix Topology]│▼[Terminal Rollout Map] <─── [Isolate Target Node Index] <─── [Multiply Layer L Matrix: A_L + I]
+flowchart LR
+    subgraph R["Recursive Attention Matrix Chain"]
+        A["Layer 1 Matrix<br/>(A₁ + I)"]
+        --> B["Multiply Block Elements"]
+        --> C["Compute Normalized Matrix"]
+        --> D["Layer L Matrix<br/>(Aₗ + I)"]
+        --> E["Isolate Target Node Index"]
+        --> F["Terminal Rollout Map"]
+    end
 ```
 
 *   **Layer Insertion Hooks**
