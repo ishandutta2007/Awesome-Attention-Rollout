@@ -108,6 +108,17 @@ To advance this documentation repository, interpretability setup, or post-traini
 * Generate a **comprehensive Markdown table** explicitly comparing Isolated Layer Probing, Vanilla Attention Rollout, Attention Flow (Max-Flow), Value-Scaled Rollout, and SAE Dictionary Tracking across mathematical complexities, requirement for gradient backpropagation logs, susceptibility to deep-layer over-smoothing, and target interpretability objects.
 * Establish a **performance evaluation harness using Triton** to profile exactly how compiling a fused rolling matrix product pass straight into GPU SRAM registers alters the wall-clock execution latency of an automated post-training safety audit.
 
+##  Star History
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Attention-Rollout&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Attention-Rollout&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Attention-Rollout&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Attention-Rollout&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
+
 ***
 
 **Proactive Repository Follow-Ups:**
