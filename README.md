@@ -1,13 +1,15 @@
-# Awesome-Attention-Rollout
-## Attention Rollout: History, Progression, Variants, & Applications
+# Awesome-Attention-Rollout 🔍
+## Attention Rollout: History, Progression, Variants, & Applications 🚀
+
+![Awesome Attention Rollout Banner](assets/banner.svg)
 
 **Attention Rollout** is a foundational mathematical diagnostic and interpretability framework designed to quantify, track, and visually reconstruct how information propagates through the self-attention layers of Vision Transformers (ViTs) and Large Language Models (LLMs). Introduced by Abnar and Zuidema in 2020 ("Quantifying Attention Flow in Transformers"), Attention Rollout addresses a core structural limitation in naive transformer attention mapping. 
 
-Because self-attention operations are stacked sequentially across deep architectures, calculating isolated, layer-by-layer attention weights fails to capture how representation fields are mixed and diluted down the network graph. Attention Rollout solves this by framing cross-token interactions as a linear flow problem, multiplying adjacent attention matrices across successive blocks to trace the absolute historical lineage of any single token back to the early input canvas.
+Because self-attention operations are stacked sequentially across deep architectures, calculating isolated, layer-by-layer attention weights fails to capture how representation fields are mixed and diluted down the network graph. Attention Rollout solves this by framing cross-token interactions as a linear flow problem, multiplying adjacent attention matrices across successive blocks to trace the absolute historical lineage of any single token back to the early input canvas. 💡
 
 ---
 
-## 1. The Macro Chronological Evolution
+## 1. 📅 The Macro Chronological Evolution
 
 The technical framework governing token interpretability has transitioned from flat layer-by-layer checks to linear matrix tracking, moving toward sound conservation flows and deep mechanistic autoencoding dictionaries.
 
@@ -29,7 +31,7 @@ flowchart LR
 
 ---
 
-## 2. Core Functional & Algorithmic Variants
+## 2. ⚙️ Core Functional & Algorithmic Variants
 
 Attention Rollout and its direct mathematical extensions are categorized based on how they track token routing weights and incorporate gradient scale parameters.
 
@@ -42,7 +44,7 @@ Attention Rollout and its direct mathematical extensions are categorized based o
 
 ---
 
-## 3. The Attention Rollout Execution Matrix
+## 3. 🖥️ The Attention Rollout Execution Matrix
 
 To map out cross-token tracking records securely at runtime, the visualization framework hooks straight into the transformer's layer-normalization boundaries.
 
@@ -65,7 +67,7 @@ flowchart LR
 
 ---
 
-## 4. Production Engineering Challenges & Hardware Solutions
+## 4. 🛠️ Production Engineering Challenges & Hardware Solutions
 
 Enforcing multi-layer matrix multiplication diagnostics across multi-billion parameter networks introduces unique memory and processing constraints.
 
@@ -76,7 +78,7 @@ Enforcing multi-layer matrix multiplication diagnostics across multi-billion par
 
 ---
 
-## 5. Frontier Real-World AI Interpretability Applications
+## 5. 🚀 Frontier Real-World AI Interpretability Applications
 
 | Application Area | Description & Impact | First Used (Year) | First Used (Paper) |
 | :--- | :--- | :--- | :--- |
@@ -86,7 +88,7 @@ Enforcing multi-layer matrix multiplication diagnostics across multi-billion par
 
 ---
 
-## References
+## 📚 References
 1. Vaswani, A., et al. (2017). Attention is all you need. *Advances in Neural Information Processing Systems (NeurIPS)*, 30.
 2. Dosovitskiy, A., et al. (2020). An image is worth 16x16 words: Transformers for image recognition at scale. *arXiv preprint arXiv:2010.11929*.
 3. Abnar, S., & Zuidema, W. (2020). Quantifying attention flow in transformers. *Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics*, 4190-4197.
