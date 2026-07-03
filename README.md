@@ -12,7 +12,7 @@ Because self-attention operations are stacked sequentially across deep architect
 The technical framework governing token interpretability has transitioned from flat layer-by-layer checks to linear matrix tracking, moving toward sound conservation flows and deep mechanistic autoencoding dictionaries.
 
 
-```
+```mermaid
 [Layer-by-Layer Probing (2017-2019)] ───> [Attention Rollout (Abnar, 2020)] ───> [Attention Flow (Max-Flow Math)] ───> [SAE Dictionary Audits (Modern Era)](Fragmented, Deep-Layer Blind Spots)        (Linear Matrix Product Assumptions)           (Capacitated Graph Routing Rules)          (Monosemantic Concept Tracking)
 ```
 
@@ -57,7 +57,7 @@ Attention Rollout and its direct mathematical extensions are categorized based o
 
 To map out cross-token tracking records securely at runtime, the visualization framework hooks straight into the transformer's layer-normalization boundaries.
 
-```
+```mermaid
 Recursive Attention Matrix Chain Loop[Layer 1 Matrix: A₁ + I] ───> [Multiply Block Elements] ───> [Compute Normalized Matrix Topology]│▼[Terminal Rollout Map] <─── [Isolate Target Node Index] <─── [Multiply Layer L Matrix: A_L + I]
 ```
 
