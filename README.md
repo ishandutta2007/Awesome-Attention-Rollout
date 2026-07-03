@@ -1,7 +1,11 @@
 # Awesome-Attention-Rollout 🔍
 ## Attention Rollout: History, Progression, Variants, & Applications 🚀
 
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007/Awesome-Attention-Rollout/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Attention-Rollout?style=flat-square" alt="Stars"/></a> <a href="https://github.com/ishandutta2007/Awesome-Attention-Rollout/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Attention-Rollout?style=flat-square" alt="License"/></a>
+
 ![Awesome Attention Rollout Banner](assets/banner.svg)
+
+> **SEO Meta Description:** Discover the ultimate curated list of resources for Attention Rollout, Attention Flow, Sparse Autoencoders (SAEs), and Mechanistic Interpretability in Vision Transformers (ViTs) and Large Language Models (LLMs). Explore chronological evolution, functional variants, production scaling, and real-world AI applications.
 
 **Attention Rollout** is a foundational mathematical diagnostic and interpretability framework designed to quantify, track, and visually reconstruct how information propagates through the self-attention layers of Vision Transformers (ViTs) and Large Language Models (LLMs). Introduced by Abnar and Zuidema in 2020 ("Quantifying Attention Flow in Transformers"), Attention Rollout addresses a core structural limitation in naive transformer attention mapping. 
 
